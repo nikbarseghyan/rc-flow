@@ -1,28 +1,23 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+//@flow
+import React from 'react';
+import Effect from './Component/Hooks/Effect'
+// import { Route, Switch, BrowserRouter } from 'react-router-dom';
+// import { ApolloProvider } from 'react-apollo';
+// import ApolloClient from 'apollo-boost';
+// import {AllUsers} from './Component/Graphql/Apollo';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
-}
+// const client = new ApolloClient({
+//   uri: 'https://api.graph.cool/simple/v1/ciyz901en4j590185wkmexyex',
+// });
+
+const App = () => (
+  // <ApolloProvider client={client}>
+  //     <AllUsers />
+  // </ApolloProvider>
+  <div>
+    <Effect/>
+  </div>
+);
 
 export default App;
+
