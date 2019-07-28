@@ -1,3 +1,7 @@
+# [FLOW: STATIC TYPE CHECKER](https://flow.org/)
+
+![alt text](http://flow.org/static/ogp-1200x630-1.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
