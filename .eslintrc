@@ -4,6 +4,8 @@
         "react"
     ],
     "rules": {
+	"react/jsx-uses-react": "error",
+        "react/jsx-uses-vars": "error",
         "space-in-parens": [0, "always"],
         "template-curly-spacing": [2, "always"],
         "array-bracket-spacing": [2, "always"],
